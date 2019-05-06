@@ -64,3 +64,9 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+
+#### Other files
+*.swp
+.idea
+.DS_Store
+.project
