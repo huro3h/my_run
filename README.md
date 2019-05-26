@@ -1,24 +1,4 @@
-# README
+#### README
+running records with [Pixela](https://pixe.la/)  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img src="https://pixe.la/v1/users/huro3h/graphs/myrun" class="rounded mx-auto d-block" style="max-width: 600px;">
