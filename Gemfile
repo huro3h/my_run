@@ -54,5 +54,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #### additional
 gem 'pixela'
 gem 'pry'
+gem 'pry-byebug'
 gem 'pry-rails'
 gem 'ridgepole'
+gem 'rubocop'
