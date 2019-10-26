@@ -1,5 +1,11 @@
 create_table "user_runs", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
+  t.integer "user_id"
   t.integer "amount", default: 0
+  t.datetime "created_at", default: -> { "CURRENT_TIMESTAMP" }, null: false
+  t.timestamp "updated_at", default: -> { "CURRENT_TIMESTAMP" }, null: false
+end
+
+create_table "users", force: :cascade ,options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
   t.datetime "created_at", default: -> { "CURRENT_TIMESTAMP" }, null: false
   t.timestamp "updated_at", default: -> { "CURRENT_TIMESTAMP" }, null: false
 end
